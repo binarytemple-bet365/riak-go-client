@@ -22,19 +22,19 @@ var crdtContextBytes = crdtContext.Bytes()
 const testBucketType = "plain"
 const testBucketName = "riak_index_tests"
 
-// riak_admin bucket-type create counters '{"props":{"datatype":"counter"}}'
+// riak-admin bucket-type create counters '{"props":{"datatype":"counter"}}'
 // riak-admin bucket-type activate counters
 const testCounterBucketType = "counters"
 
-// riak_admin bucket-type create sets '{"props":{"datatype":"set"}}'
+// riak-admin bucket-type create sets '{"props":{"datatype":"set"}}'
 // riak-admin bucket-type activate sets
 const testSetBucketType = "sets"
 
-// riak_admin bucket-type create maps '{"props":{"datatype":"map"}}'
+// riak-admin bucket-type create maps '{"props":{"datatype":"map"}}'
 // riak-admin bucket-type activate maps
 const testMapBucketType = "maps"
 
-// riak_admin bucket-type create hlls '{"props":{"datatype":"hll"}}'
+// riak-admin bucket-type create hlls '{"props":{"datatype":"hll"}}'
 // riak-admin bucket-type activate hlls
 const testHllBucketType = "hlls"
 
