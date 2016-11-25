@@ -15,7 +15,7 @@ import (
 
    make sure these bucket-types are created:
 
-   riak_admin bucket-type create hlls '{"props":{"datatype":"hll"}}'
+   riak-admin bucket-type create hlls '{"props":{"datatype":"hll"}}'
 */
 
 func main() {
